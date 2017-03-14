@@ -12,6 +12,11 @@
 		E41945101E77BFB000CCE23F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E419450E1E77BFB000CCE23F /* Main.storyboard */; };
 		E41945121E77BFB000CCE23F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41945111E77BFB000CCE23F /* Assets.xcassets */; };
 		E41945151E77BFB000CCE23F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41945131E77BFB000CCE23F /* LaunchScreen.storyboard */; };
+		E419451D1E77C00500CCE23F /* ZPNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419451C1E77C00500CCE23F /* ZPNavigationController.swift */; };
+		E41945201E77C06400CCE23F /* OneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419451E1E77C06400CCE23F /* OneVC.swift */; };
+		E41945211E77C06400CCE23F /* OneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E419451F1E77C06400CCE23F /* OneVC.xib */; };
+		E41945241E77C09300CCE23F /* TwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41945221E77C09300CCE23F /* TwoVC.swift */; };
+		E41945251E77C09300CCE23F /* TwoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E41945231E77C09300CCE23F /* TwoVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		E41945111E77BFB000CCE23F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E41945141E77BFB000CCE23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E41945161E77BFB000CCE23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E419451C1E77C00500CCE23F /* ZPNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPNavigationController.swift; sourceTree = "<group>"; };
+		E419451E1E77C06400CCE23F /* OneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneVC.swift; sourceTree = "<group>"; };
+		E419451F1E77C06400CCE23F /* OneVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneVC.xib; sourceTree = "<group>"; };
+		E41945221E77C09300CCE23F /* TwoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoVC.swift; sourceTree = "<group>"; };
+		E41945231E77C09300CCE23F /* TwoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				E41945111E77BFB000CCE23F /* Assets.xcassets */,
 				E41945131E77BFB000CCE23F /* LaunchScreen.storyboard */,
 				E41945161E77BFB000CCE23F /* Info.plist */,
+				E419451C1E77C00500CCE23F /* ZPNavigationController.swift */,
+				E419451E1E77C06400CCE23F /* OneVC.swift */,
+				E419451F1E77C06400CCE23F /* OneVC.xib */,
+				E41945221E77C09300CCE23F /* TwoVC.swift */,
+				E41945231E77C09300CCE23F /* TwoVC.xib */,
 			);
 			path = popGesture;
 			sourceTree = "<group>";
@@ -124,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41945251E77C09300CCE23F /* TwoVC.xib in Resources */,
 				E41945151E77BFB000CCE23F /* LaunchScreen.storyboard in Resources */,
+				E41945211E77C06400CCE23F /* OneVC.xib in Resources */,
 				E41945121E77BFB000CCE23F /* Assets.xcassets in Resources */,
 				E41945101E77BFB000CCE23F /* Main.storyboard in Resources */,
 			);
@@ -138,7 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E419450D1E77BFB000CCE23F /* ViewController.swift in Sources */,
+				E41945201E77C06400CCE23F /* OneVC.swift in Sources */,
 				E419450B1E77BFB000CCE23F /* AppDelegate.swift in Sources */,
+				E419451D1E77C00500CCE23F /* ZPNavigationController.swift in Sources */,
+				E41945241E77C09300CCE23F /* TwoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
